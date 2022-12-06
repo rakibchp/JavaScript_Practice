@@ -1,11 +1,8 @@
+var x = 3;
+var y = 5; 
 
-<Script>
+function sum(x, y) {
+        return  x+y;
+}
 
-    var x = 10;
-    var y = 30; 
-
-    var z= x+y;
-
-
-    console.log(z);
-</Script>
+console.log(sum(x,y));
